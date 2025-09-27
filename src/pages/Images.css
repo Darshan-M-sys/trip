@@ -1,0 +1,123 @@
+/* Container */
+.image-container {
+  text-align: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+mark{
+  padding: 0px 3px;
+}
+.image-search-bar {
+  position: relative;
+  text-align: center;
+  margin: 30px auto;
+  max-width: 800px;
+}
+
+.image-search-bar input {
+  width: 70%;
+  font-size: 22px;
+  padding: 12px 20px;
+  border-radius: 30px;
+  outline: none;
+  border: 2px solid #1e90ff;
+  transition: all 0.3s ease-in-out;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+}
+
+.image-search-bar input:focus {
+  filter: drop-shadow(1px 2px 10px #1e90ff);
+}
+
+.image-search-bar span {
+  position: absolute;
+  font-size: 25px;
+  right: 15%;
+  top: 12px;
+  color: #1e90ff;
+  cursor: pointer;
+}
+
+
+.images {
+  padding: 20px 0;
+}
+
+
+.img {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 30px;
+  overflow-x: scroll;
+  padding: 10px 0;
+
+  
+  scrollbar-width: none;     
+  -ms-overflow-style: none;   
+}
+
+.img::-webkit-scrollbar {
+  display: none;               
+}
+
+
+.img img {
+  width: 300px;
+  height: 300px;
+  margin-left: 10px;
+  border-radius: 12px;
+  object-fit: cover;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  cursor: pointer;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.15);
+  filter: drop-shadow(1px 1px 3px blue);
+}
+
+.img img:hover {
+  transform: scale(1.05) rotate(-1deg);
+  box-shadow: 0 10px 24px rgba(0,0,0,0.25);
+}
+.profile{
+  padding:10px;
+  color:white;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-style: italic;
+}
+.profile h1{
+  font-size: 15px;
+  text-decoration: underline rgb(35, 35, 93);
+}
+@media (max-width: 768px) {
+  .image-search-bar input {
+    font-size: 18px;
+  }
+
+  .img img {
+    width: 200px;
+    height: 200px;
+    padding: 0;
+  }
+}
+@media (max-width: 480px) {
+  .img img {
+    width: 150px;
+    height: 150px;
+    margin-left: 5px;
+  }
+   .image-search-bar input{
+    width:90%;
+ padding: 10px;
+   }
+    .image-search-bar span{
+      right: 14px;
+      top:9px
+    }
+    .profile h1{
+      padding: 2px;
+      font-size: 10px;
+    }
+}

@@ -1,0 +1,410 @@
+
+.bg {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: url("./images.jpg") no-repeat center center/cover;
+  filter: blur(90px);
+  z-index: -1;
+}
+
+
+.content {
+  position: relative;
+  z-index: 1;
+  color: white;
+ 
+}
+
+
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: -290px; 
+  width: 250px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  transition: left 0.8s ease-in-out;
+  color: white;
+  padding: 20px;
+  z-index: 2;
+}
+
+
+.menu {
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  position: fixed;
+  top: 10px;
+  left: 20px;
+  font-size: 30px;
+  color: white;
+  z-index: 990;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+ 
+}
+.menu-bar h2{
+  padding:10px;
+  cursor: pointer;
+  line-height: 20px;
+  margin: 13px;
+}
+
+.menu-bar h2:hover{
+   background: linear-gradient(to top ,rgb(9, 9, 40),rgb(26, 26, 81),rgb(16, 16, 95),rgb(14, 14, 122));
+}
+
+header{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.college-name{
+padding: 10px;
+text-align: center;
+
+}
+.college-name h1{
+  font-family: Georgia, 'Times New Roman', Times, serif;
+   background:linear-gradient(100deg ,rgb(53, 168, 21),yellow,green,white);
+      filter: drop-shadow(0px 0px 10px blue);
+  z-index: -1;
+  font-size: 50px;
+  font-style: italic;
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+   animation: textFlow 5s linear infinite;
+}
+
+
+
+.college-name p{
+  color: black;
+font-size: 30px;
+font-variant: small-caps;
+font-family:Arial, Helvetica, sans-serif;
+line-height: 10px;
+}
+
+.college-logo img{
+  width:150px;
+  height:150px;
+}
+.text1{
+  background: rgba(255,255,255,0.1);
+  margin: 10px;
+  padding: 20px;
+  box-shadow: 0px 0px 10px rgb(255, 0, 200);
+  margin: 0 20%;
+  border-radius: 5px;
+}
+.text1 h2{
+  text-align: center;
+  color:rgb(0, 255, 255);
+  font-size: 25px;
+  border-bottom: 4px solid gainsboro;
+border-radius:10px;
+}
+.text1 p{
+  text-indent: 20px;
+  font-size: 30px;
+  font-family:Georgia, 'Times New Roman', Times, serif;
+}
+.college-section{
+  display: flex;
+}
+.college-img{
+display: flex;
+  margin-top: 20px;
+  gap:20px;
+  text-align: center;
+background: rgba(255,255, 255, 0.2);
+border-radius: 10px;
+padding: 10px;
+margin: 10px 20px;
+}
+.college-img img{
+   border-radius: 20px;
+}
+.college-img h1{
+  font-size: 29px;
+  margin: none;
+ padding: none;
+color: rgb(255, 253, 253);
+font-weight: bold;
+ text-shadow: 0px 0px 2px 10px blue;
+}
+
+.text-college{
+  background-color: rgba(255,255,255,0.2);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+}
+.college-img p{
+  margin: 10px;
+}
+
+.HOD{
+  text-align: center;
+}
+.HOD h1{
+  font-size: 40px;
+font-style: italic;
+color:rgb(228, 211, 211);
+filter: drop-shadow(0px 0px 5px blue);
+   border-bottom: 4px solid blue;
+}
+
+.HOD-profile{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: rgba(255,255,255,0.5);
+  gap:30px;
+  padding: 10px;
+  border-radius: 10px;
+  margin: 0 10%;
+}
+
+.HOD-profile img{
+  width:300px;
+  height:300px;
+  background: linear-gradient(to right,rgb(255, 0, 0),rgb(0, 255, 217),rgb(0, 255, 174),rgb(230, 0, 255));
+  padding:10px;
+  border-radius: 10px;
+}
+.HOD-profile img:hover{
+  opacity: 0.9;
+  filter: blur(1px);
+}
+
+.HOD-profile h2{
+  font-size: 40px;
+  color: rgb(41, 67, 90);
+  filter: drop-shadow(0px 0px 5px rgb(255, 192, 241));
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-decoration:underline dashed;
+  margin: 5px;
+  padding: 10px;
+}
+.HOD-profile h3{
+  line-height: 10px;
+  color: black;
+  font-style: italic;
+  opacity: 0.6;
+}
+.HOD-profile p{
+  margin-top: 10px;
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-size: 20px;
+}
+.animate-on-scroll
+{
+  opacity: 0;
+  transition: all 0.9s ease-in-out;
+}
+
+.animate-on-scroll {
+  transform: scale(0.9);
+}
+.animate-on-scroll.active {
+  opacity: 1;
+  transform: scale(1);
+}
+.travel{
+  margin: 20px;
+  text-align: center;
+}
+.travel h1{
+  font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 3px solid rgb(21, 238, 71);
+  border-radius: 10px;
+}
+.travel-img{
+  display: flex;
+  gap: 20px;
+}
+.travel-img img{
+  width:300px;
+  height:300px;
+  border-radius: 20px;
+  filter: drop-shadow(1px 2px 5px rgb(15, 145, 173));
+  transition: all 0.3 ease-in-out;
+border: 1px solid rgb(0, 255, 51);
+}
+.travel-img img:hover{
+  transform: scale(1.1);
+  opacity: 0.7;
+}
+
+.visitors{
+text-align: center;
+}
+.visitors h1{
+    font-size: 30px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  padding: 20px;
+  margin: 10px;
+  border-bottom: 3px solid rgb(21, 238, 71);
+  border-radius: 10px;
+
+}
+
+
+.menu-icon {
+  position: fixed;
+  top: 15px;
+  left: 20px;
+  font-size: 30px;
+  color: white;
+  cursor: pointer;
+  z-index: 5;
+  transition: all 0.3s ease;
+}
+
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: -280px; 
+  width: 250px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  color: white;
+  padding: 20px;
+  z-index: 4;
+  transition: left 0.5s ease;
+  overflow-y: auto;
+  box-shadow: 3px 0 10px rgba(0,0,0,0.5);
+}
+
+.menu-bar.active {
+  left: 0; 
+}
+
+.menu-bar h2 {
+  padding: 12px 10px;
+  margin: 10px 0;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  cursor: pointer;
+  border-radius: 8px;
+  transition: all 0.3s ease;
+}
+
+.menu-bar h2:hover {
+  background: linear-gradient(to right, #007bff, #00c6ff);
+  transform: translateX(5px);
+  color: white;
+}
+
+@media screen and (max-width: 600px) {
+  .menu-bar {
+    width: 200px;
+    padding: 15px;
+  }
+.college-section{
+  flex-direction: column;
+}
+  .menu-bar h2 {
+    font-size: 18px;
+  }
+
+  .menu-icon {
+    font-size: 28px;
+  }
+}
+@media screen and (max-width:600px) {
+  .menu{
+    left:10px;
+  }
+.menu-bar h2{
+  padding: 10px;
+  font-size: 25px;
+  cursor: pointer;
+  margin-top:20px ;
+}
+.menu-bar {
+  position: fixed;
+  top: 0;
+  left: -290px; 
+  width: 250px;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.85);
+  transition: left 0.8s ease-in-out;
+  color: white;
+  padding:  2px 10px;
+   overflow-y: scroll;
+  z-index: 2;
+}
+
+.college-name h1{
+  font-size: 20px;
+}
+.college-logo img{
+  margin-top:-10px;
+  width: 50px;
+  height: 50px;
+}
+.college-name p{
+  font-size: 15px;
+  color: #e3e3e8;
+}
+.text1{
+  margin: 2px;
+}
+.text1 p{
+  font-size: 15px;
+}
+.college-img img{
+  width: 310px;
+  height: 100%;
+}
+.college-img {
+  margin: 0;
+  flex-direction: column;
+  position: relative;
+}
+.college-img .text-college{
+font-size: 13px;
+}
+.college-img h2{
+  font-size: 20px;
+  color: rgb(20, 20, 131);
+  line-height: 2px;
+}
+.HOD h1{
+  font-size: 30px;
+font-style: italic;
+color:rgb(228, 211, 211);
+filter: drop-shadow(0px 0px 5px blue);
+   border-bottom: 4px solid blue;
+}
+.HOD-profile{
+  margin: 0;
+  flex-direction: column;
+}
+.HOD-profile img{
+ width:280px;
+ height: 300px;
+}
+.HOD-profile h2{
+  font-size: 23px;
+}
+.HOD-profile p{
+  font-size: 12px;
+}
+.travel{
+  margin: 0;
+}
+.travel-img {
+   overflow-x: scroll;
+}
+
+}
