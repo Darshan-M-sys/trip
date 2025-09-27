@@ -28,7 +28,7 @@ const Register = () => {
       return alert("please Enter all fields")
     }
    
-    axios.post("http://localhost:5000/user/register",{username,email,password},{withCredentials:true})
+    axios.post("https://tripbackend-u7jf.onrender.com/user/register",{username,email,password},{withCredentials:true})
     .then((res)=>setReplay(res.data.msg)).catch(()=>{
       console.log("error")
     })
