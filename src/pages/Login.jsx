@@ -20,7 +20,7 @@ const Login = () => {
     if (!email || !password) return alert("Please enter the fields");
     try {
       const res = await axios.post(
-        "http://localhost:5000/user/login",
+        "https://tripbackend-u7jf.onrender.com/user/login",
         { email, password },
         { withCredentials: true }
       );
