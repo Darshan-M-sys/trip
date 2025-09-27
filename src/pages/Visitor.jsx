@@ -34,7 +34,7 @@ const Visitors = () => {
     try {
       setReplay("Please wait...");
        await axios.post(
-        "http://localhost:5000/visitor",
+        "https://tripbackend-u7jf.onrender.com/visitor",
         formData,
         {
           withCredentials: true,
