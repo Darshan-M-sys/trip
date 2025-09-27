@@ -36,7 +36,7 @@ const UploadPhoto = () => {
 
     try {
       const response = await axios.post(
-        "http://localhost:5000/upload-multiple",
+        "https://tripbackend-u7jf.onrender.com/upload-multiple",
         formData,
         {
           withCredentials: true, // Important to send session cookie
