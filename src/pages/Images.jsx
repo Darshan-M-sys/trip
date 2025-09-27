@@ -15,7 +15,7 @@ const Images = () => {
 
   const handleData = () => {
     axios
-      .get("http://localhost:5000/upload-multiple", { withCredentials: true })
+      .get("https://tripbackend-u7jf.onrender.com/upload-multiple", { withCredentials: true })
       .then((res) => {
       setData(res.data.data)
       })
