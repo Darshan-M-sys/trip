@@ -22,7 +22,7 @@ const Home = () => {
   // Fetch logged-in user
   const fetchUser = async () => {
     try {
-      const res = await axios.get("http://localhost:5000/user", { withCredentials: true });
+      const res = await axios.get("https://tripbackend-u7jf.onrender.com/user", { withCredentials: true });
       setUsername(res.data.username || "");
     } catch (err) {
       setUsername(""); // Not logged in
@@ -51,7 +51,7 @@ const Home = () => {
   // Logout function
   const handleLogout = async () => {
     try {
-      await axios.post("http://localhost:5000/user/logout", {}, { withCredentials: true });
+      await axios.post("https://tripbackend-u7jf.onrender.com/user/logout", {}, { withCredentials: true });
       setUsername(""); // Clear username immediately
     } catch (err) {
       console.error(err);
