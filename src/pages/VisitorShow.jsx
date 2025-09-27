@@ -8,7 +8,7 @@ const VisitorList = () => {
   useEffect(() => {
     const fetchVisitors = async () => {
       try {
-        const response = await axios.get("http://localhost:5000/visitor");
+        const response = await axios.get("https://tripbackend-u7jf.onrender.com/visitor");
         setVisitors(response.data.data);
       } catch (err) {
         console.error("Error fetching visitors:", err);
