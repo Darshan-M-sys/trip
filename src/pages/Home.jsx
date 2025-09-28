@@ -92,7 +92,7 @@ const Home = () => {
         <header>
           <div className="college-name">
             <h1> NAVACHETHAN DEGREE COLLEGE</h1>
-            <p>Tippu Nagar, Bangarpet -563114</p>
+            <p>Tippu Nagar, Bangarpet-563114</p>
           </div>
           <div className="college-logo">
             <img style={{background:"white", borderRadius:"50%"}} src={college} alt="college" />
@@ -104,12 +104,7 @@ const Home = () => {
         <div className="text1 animate-on-scroll">
           <h2> College Trip 2025</h2>
           <p>
-            We, the students of Navachethan Degree College, are thrilled to embark on our exciting South India College Trip 2025!  
-            Our journey begins from Bangarpet to Kodaikanal, where we will enjoy the scenic hill station and cool weather. 
-            Next, we will travel from Madurai to Sivaganga, exploring historical temples and cultural landmarks.  
-            From Sivaganga to Rameswaram and Dhanushkodi, we will witness breathtaking coastal beauty and visit iconic sites.  
-            Our adventure continues as we travel from Rangapet to Sivaganga and finally to Samayapuram and back to Bangarpet, creating lifelong memories with friends.  
-            Through this website, we aim to capture every moment of our journey — from picturesque landscapes and historic temples to laughter-filled bus rides and unforgettable experiences.
+ We, the students of Navachethana Degree College, are thrilled to embark on our exciting South India College Trip 2025! Our journey begins from Bangarpet to Kodaikanal, where we will enjoy the scenic hill station and its cool weather. Next, we will travel from Madurai to Sivaganga, exploring historical temples and cultural landmarks. From Sivaganga to Rameswaram and Dhanushkodi, we will witness breathtaking coastal beauty and visit iconic sites. Our adventure continues as we travel from Bangarpet to Sivaganga and finally to Samayapuram, before returning to Bangarpet, creating lifelong memories with friends.
           </p>
         </div>
 
@@ -123,12 +118,10 @@ const Home = () => {
             <h1>Navachethana Degree College</h1>
             <p>Bangerpet - S63114</p>
             <h3>Education Courses</h3>
-            <p>PUC - PCMB EBCS HEBA</p>
+            <p>PUC - PCMB EBACS HEBA</p>
             <p>DEGREE - BCA BCOM</p>
             <p>
-              Navachethana Degree College is dedicated to providing quality education
-              and nurturing future leaders. Our diverse courses empower students
-              to excel in academics and professional life.
+             Navachethana Degree College is committed to providing quality education and nurturing future leaders. Through our diverse range of courses, we empower students to excel in academics and succeed in their professional careers.
             </p>
           </div>
         </div>
@@ -143,11 +136,7 @@ const Home = () => {
               <h2>Akshara Pavithra Devi</h2>
               <h3>HOD BCA Department</h3>
               <p>
-                Miss. Akshara Pavithra Devi, Head of the BCA Department at Navachethana Degree College, 
-                is an experienced educator and IT professional with a passion for guiding students 
-                in the field of computer applications. With expertise in software development, programming, 
-                and emerging technologies, she is committed to fostering innovation, critical thinking, 
-                and practical skills among students to prepare them for successful careers in the tech industry.
+              Miss Akshara Pavithra Devi, Head of the BCA Department at Navachethana Degree College, is an experienced educator and IT professional with a passion for mentoring students in the field of computer applications. With strong expertise in software development, programming, and emerging technologies, she is dedicated to fostering innovation, critical thinking, and practical skills among students, preparing them for successful careers in the technology industry.
               </p>
             </div>
           </div>
