@@ -17,7 +17,7 @@ import axios from 'axios';
 const Home = () => {
   const menu = useRef(null);
   const [menuS, setMenuS] = useState(false);
-  const [username, setUsername] = useState(""); // Empty by default
+  const [username, setUsername] = useState(""); 
 
   // Fetch logged-in user
   const fetchUser = async () => {
@@ -91,7 +91,7 @@ const Home = () => {
   
         <header>
           <div className="college-name">
-            <h1> NAVACHETHAN DEGREE COLLEGE</h1>
+            <h1> NAVACHETHANA DEGREE COLLEGE</h1>
             <p>Tippu Nagar, Bangarpet-563114</p>
           </div>
           <div className="college-logo">
