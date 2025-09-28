@@ -116,7 +116,7 @@ const Home = () => {
           <div className="text-college">
             <h2>ನವಚೇತನ ಪದವಿ ಕಾಲೇಜು</h2>
             <h1>Navachethana Degree College</h1>
-            <p>Bangerpet - S63114</p>
+            <p>Bangarpet - 563114</p>
             <h3>Education Courses</h3>
             <p>PUC - PCMB EBACS HEBA</p>
             <p>DEGREE - BCA BCOM</p>
